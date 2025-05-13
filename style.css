@@ -1,0 +1,290 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    /* nav start */
+    .container nav img{
+        height: 60px;
+        width: 60px;
+    border-radius: 50%;
+    }
+    .container nav{
+        display: flex;
+        background-color: orange;
+       
+    }
+    ul{
+        display: flex;
+        margin-left: 450px;
+        gap: 80px;
+        list-style: none;
+        font-size: 25px;
+        
+    
+    }
+    ul li{
+    
+        margin-top: 40px;
+    }
+    nav span{
+        color: red;
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    ul li:hover{
+        color: red;
+        cursor: pointer;
+    }
+    
+    
+    
+    /*  nav hase end here */
+    
+    
+    /* about start */
+    
+    .about{
+        display: flex;
+        background-color:black ;
+        gap: 500px;
+        height: 500px;
+        width: 1500px;
+    }
+    .about h1{
+        color: rgb(231, 231, 226);
+        animation: up 2.5s linear;
+    }
+    .bb img{
+       width: 400px;
+       height: 400px ;
+       margin-top: 60px;
+    }
+     h1 p{
+        margin-left: 40px;
+        margin-top: 100px;
+        padding-left: 40px;
+    }
+     span{
+        color:orange;
+    }
+    @keyframes up{
+        0%{
+            transform: rotateY('250px');
+            opacity: 0;
+    
+        }
+        40%{
+            opacity: .2;
+    
+        }
+        80%{
+            opacity: .4;
+        }
+    }
+     h1 button{
+        width:110px;
+        height:50px;
+        background-color: orange;
+        align-items: center;
+        border-radius: 20px;
+        border: orange;
+        margin-left: 75px;
+        font-size:15px;
+        }
+        
+    h1 button:hover{
+        background: red;  
+        color:rgb(226, 214, 214);
+        cursor: pointer;
+    }
+    
+    /* about is end */
+    
+    /* srvises start  */
+    
+    .service{
+        background-color:black;
+        display: flex;
+        gap: 80px;
+    }
+    .service .web{
+        background-color:black;
+        border: 4px solid rgb(231, 7, 7);
+        height: 400px; 
+        width: 400px;
+        border-radius: 12px;
+        
+    }
+    .service .web h1{
+        color: orange;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .service .web i{
+        margin-left: 170px;
+        font-size: 70px;
+        color: orange;
+        margin-top: 15px;
+        
+    }
+    .web p{
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .service .app{
+        background-color: black;
+        border: 4px solid red;
+        height: 400px;
+        width: 400px;
+        border-radius: 12px;
+    }
+    .service .app h1{
+        font-size: 40px;
+    color: orange;
+    text-align: center;
+    margin-top: 40px;
+    }
+    .service .app i{
+        margin-left: 170px;
+        font-size: 70px;
+        color: orange;
+        margin-top: 20px; 
+    }
+    .app p{
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .service .word{
+        background-color: black;
+        border: 4px solid red;
+        height: 400px;
+        width: 400px;
+        border-radius: 15px;
+    
+    }
+    .service .word h1{
+        color: orange;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .service .word i{
+        margin-left: 170px;
+        /* padding-left: 120px; */
+        font-size: 70px;
+        color: orange;
+        margin-top: 20px;
+    
+    }
+    .word p{
+        text-align: center;
+        color: white; 
+        margin-top: 20px; 
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .service button{
+     background-color: white;
+     font-size: 20px;
+     color: black;
+     border-radius: 70%;
+     margin-left: 130px;
+     margin-top: 30px;
+     padding: 16px 16px 10px 8px;
+     cursor: pointer;
+
+    }
+    .service button:hover{
+    background-color: red;
+    transition: 0.5s;
+
+
+    }
+    .heading{
+        background-color: black;
+    }
+    .heading h1{
+    color: orange;
+    text-align: center;
+    font-size: 70px;
+    }
+    .heading p{
+        color: rgb(230, 217, 217);
+        text-align: center;
+        font-size: 30px;
+    }
+    /* service end */
+    /* project start */
+    .ib{
+     background-color: rgb(206, 72, 72);
+    
+    
+    }
+    .ib h1{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    
+    }
+    .ib p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    }
+    .projects{
+        background-color: black;
+        background-color: rgb(207, 71, 71);
+    }
+    .nn{
+        display: flex;
+        gap: 150px;
+        margin-left: 50px;
+     
+    }
+    .nn .mm img{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    
+    
+    /* projects is end */
+    
+    /*  contact us  */
+    .contact{
+        background-color: black;
+    }
+    .contact h1{
+        color: orange;
+        font-size: 50px;
+        text-align: center;
+    }
+    .uy{
+        display: flex;
+        background-color: black;
+        gap: 300px;
+    }
+    .yu h1{
+    color: orange;
+    font-size: 30px;
+    margin-top: 20px;
+    }
+    .yt h1{
+        color: white;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .ty i{
+    color:orange;
+    cursor: pointer;
+    font-size: 50px;
+    }
